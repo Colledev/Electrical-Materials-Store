@@ -1,0 +1,73 @@
+.container-brand {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.flexColStart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-brand h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+
+.r-card {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+}
+
+.r-card img {  
+    width: 100%;
+    overflow: hidden;
+    max-width: 500px;
+    background-color: white;
+}
+
+.r-card:hover {
+    scale: 1.025;
+}
+
+.primaryTextText {
+    font-size: 30px;
+}
+
+.r-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.r-button button {
+    font-size: 25px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.r-button button:hover {
+    scale: 1.025;
+    transition: all 300ms ease-in;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 768px) {
+    .header-brand h3 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+    }
+
+    .r-button {
+        margin-bottom: 1px;
+    }
+}

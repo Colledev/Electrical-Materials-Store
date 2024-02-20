@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Iluminação",
+    "image": "./Products/Lampadas.png"
+  },
+  {
+    "name": "Eletrodutos",
+    "image": "./Products/Mangueira.png"
+  },
+  {
+    "name": "Ventiladores",
+    "image": "./Products/Ventilador.png"
+  },
+  {
+    "name": "Cabos e fios",
+    "image": "./Products/Cabo-flexivel.png"
+  },
+  {
+    "name": "Disjuntores",
+    "image": "./Products/Disjuntor.png"
+  },
+  {
+    "name": "Spots",
+    "image": "./Products/Spot-preto.png"
+  },
+  {
+    "name": "Refletores",
+    "image": "./Products/Refletor.png"
+  },
+  {
+    "name": "Tomadas",
+    "image": "./Products/Plugue.png"
+  }
+  
+]

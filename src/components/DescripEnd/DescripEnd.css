@@ -1,0 +1,139 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.D-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icon-end img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    margin: 25px
+}
+
+.Dend-social {
+    margin-left: 10px;
+}
+
+.info-itemm {
+    display: flex;
+    align-items: center;
+}
+
+.info-itemm img {
+    width: 65px;
+}
+
+.Dend-data {
+    margin-left: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-right: 20px;
+    /* Reduza essa margem conforme necessário */
+    position: relative;
+}
+
+.info-item p {
+    margin-left: 10px;
+    /* Adicione margem à esquerda do parágrafo conforme necessário */
+    font-size: 14px;
+}
+
+.info-item img {
+    width: 40px;
+}
+
+.divider {
+    border-top: 150px solid #000000;
+    margin: 10px 150px;
+}
+
+.info-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.info-link:hover {
+    color: rgb(110, 110, 110);
+}
+
+@media only screen and (max-width: 599px) {
+    .info-item {
+        margin-right: 0;
+    }
+
+    .D-container {
+        display: block;
+        align-items: center;
+    }
+
+    .icon-end {
+        display: block;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .info-item img {
+        width: 40px;
+    }
+
+    .info-item p, .info-itemm p {
+        font-size: 10px;
+    }
+
+    .info-itemm img {
+        width: 40px;
+    }
+
+    .icon-end img {
+        width: 160px;
+        margin: -30px 50px 5px 50px;
+    }
+
+    .divider {
+        border-top: 1px solid #000000;
+        margin: 1px 50px;
+    }
+
+    .Dend-social, .Dend-data {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+    .divider {
+        border-top: 150px solid #000000;
+        margin: 10px 18px;
+    }
+}   
+
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .divider {
+        border-top: 150px solid #000000;
+        margin: 10px 40px;
+    }
+}
+
+@media only screen and (min-width: 1051px) and (max-width: 1300px) {
+    .divider {
+        border-top: 150px solid #000000;
+        margin: 10px 80px;
+    }
+}

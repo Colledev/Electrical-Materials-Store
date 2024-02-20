@@ -1,0 +1,15 @@
+.me {
+    text-align: center;
+    margin-top: 0;
+    background: rgb(245, 245, 245);
+    border: 1px solid black;
+}
+
+.me h1 {
+    font-size: 15px;
+}
+
+.me a {
+    text-decoration: none; /* Remover sublinhado padrão do link */
+    color: #000000; /* Cor do texto (pode ser ajustada conforme necessário) */
+  }

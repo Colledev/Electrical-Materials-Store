@@ -1,0 +1,17 @@
+.Icon-Whats {
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10000;
+}
+
+.Icon-Whats:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 440px) {
+    .Icon-Whats {
+        width: 55px;
+    }
+}
