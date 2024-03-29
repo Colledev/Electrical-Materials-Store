@@ -40,6 +40,11 @@ npm start
 
 This will start the development server and you will be able to access the application in your browser at http://localhost:3000.
 
+## Screenshots
+
+![image](https://github.com/Colledev/commercial-store/assets/112740912/12269ff4-c7c7-4bb6-b756-85edb5554573)
+
+
 ## License
 
 MIT License
